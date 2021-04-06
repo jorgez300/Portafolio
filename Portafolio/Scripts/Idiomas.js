@@ -1,4 +1,5 @@
 ﻿let ESP = {
+    WebTitle: "Mi Portafolio",
     Menu: {
         About: "Sobre mi",
         Experience: "Experiencia",
@@ -23,7 +24,7 @@
         {
             Title: "Gerente de Operaciones",
             Place: "Farmacias Francisca Duarte",
-            Period: "Junio/2011 - Julio/2014",
+            Period: "Junio 2011 - Julio 2014",
             Resume: "Desarrollo de software y gestion de operaciones",
             Activities: [
                 "Evacuación y control de operaciones en las áreas de piso de ventas, inventario, recursos humanos y soporte técnico.",
@@ -34,7 +35,7 @@
         {
             Title: "Gerente de Operaciones",
             Place: "Sersumitca",
-            Period: "Octubre/2015 - Abril/2017",
+            Period: "Octubre 2015 - Abril 2017",
             Resume: "Desarrollo de software y gestion de operaciones",
             Activities: [
                 "Evaluación y control de operaciones del personal de recursos humanos y tele ventas.",
@@ -59,13 +60,13 @@
     Education: [
         {
             Title: "Ingeniero de sistemas",
-            Place: "Genesys Ltda.",
-            Period: "Octubre 2017 - Presente",
+            Place: "Universidad de Margarita.",
+            Period: "2009 - 2014"
         },
         {
             Title: "Ingles para relaciones publicas",
-            Place: "Genesys Ltda.",
-            Period: "Octubre 2017 - Presente",
+            Place: "ELS language center, California.",
+            Period: "2015"
         }
     ],
     Skills: {
@@ -103,42 +104,58 @@
             Resume: "Sitio web responsivo",
             BtnTxt: "Ver",
             BtnClose: "Ocultar",
-            Thumb: "0.jpg",
+            Folder: "Portal_Proveedores",
+            Thumb: "Screenshot_1.png",
             Imgs: [
-                "0.jpg", "1.jpg", "2.jpg", "3.jpg"
+                "Screenshot_1.png", "Screenshot_2.png", "Screenshot_3.png", "Screenshot_4.png", "Screenshot_5.png", "Screenshot_6.png", "Screenshot_7.png", "Screenshot_8.png", "Screenshot_9.png"
             ]
         },
         {
             id: 1,
-            Title: "Portal Proveedores",
+            Title: "Valdor",
             Resume: "Sitio web responsivo",
             BtnTxt: "Ver",
             BtnClose: "Ocultar",
-            Thumb: "1.jpg",
+            Folder: "Valdor",
+            Thumb: "Screenshot_1.png",
             Imgs: [
-                "0.jpg", "1.jpg", "2.jpg", "3.jpg"
+                "Screenshot_1.png", "Screenshot_2.png", "Screenshot_3.png"
             ]
         },
         {
             id: 2,
-            Title: "Portal Proveedores",
+            Title: "Trozos Aserrables",
             Resume: "Sitio web responsivo",
             BtnTxt: "Ver",
             BtnClose: "Ocultar",
-            Thumb: "2.jpg",
+            Folder: "Trozos_Aserrables",
+            Thumb: "Screenshot_1.png",
             Imgs: [
-                "0.jpg", "1.jpg", "2.jpg", "3.jpg"
+                "Screenshot_1.png", "Screenshot_2.png", "Screenshot_3.png", "Screenshot_4.png"
             ]
         },
         {
             id: 3,
-            Title: "Portal Proveedores",
+            Title: "Dashboard",
             Resume: "Sitio web responsivo",
             BtnTxt: "Ver",
             BtnClose: "Ocultar",
-            Thumb: "3.jpg",
+            Folder: "Demo_Dashboard",
+            Thumb: "Screenshot_1.png",
             Imgs: [
-                "0.jpg", "1.jpg", "2.jpg", "3.jpg"
+                "Screenshot_1.png", "Screenshot_2.png", "Screenshot_3.png"
+            ]
+        },
+        {
+            id: 4,
+            Title: "Descarga Productos",
+            Resume: "Sitio web responsivo",
+            BtnTxt: "Ver",
+            BtnClose: "Ocultar",
+            Folder: "DescargaProd",
+            Thumb: "Screenshot_3.png",
+            Imgs: [
+                "Screenshot_1.png", "Screenshot_2.png", "Screenshot_10.png"
             ]
         }
     ]
@@ -146,7 +163,28 @@
 };
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let ENG = {
+    WebTitle: "My Portfolio",
     Menu: {
         About: "About",
         Experience: "Experience",
@@ -169,43 +207,51 @@ let ENG = {
     Experience: [
 
         {
-            Title: "Desarrollo Web",
-            Place: "Genesys Ltda.",
-            Period: "Octubre 2017 - Presente",
-            Resume: "111111",
+            Title: "Operative administration / Software developer",
+            Place: "Farmacias Francisca Duarte",
+            Period: "June 2011 - July 2014",
+            Resume: "Software development and operations management.",
             Activities: [
-                "Tarea 1", "Tarea 2", "Tarea 3"
+                "Evaluation and control of operations in the areas of sales floor, inventory, human resources and technical support.",
+                "Software development in Microsoft environment (Visual c #, Windows Server, Sql Server and Reporting Services).",
+                "Preparation of management reports that facilitate the evaluation of the performance of each branch."
             ]
         },
         {
-            Title: "Desarrollo Web",
-            Place: "Genesys Ltda.",
-            Period: "Octubre 2017 - Presente",
-            Resume: "222222",
+            Title: "Operative administration / Software developer",
+            Place: "Sersumitca",
+            Period: "October 2015 - April 2017",
+            Resume: "Software development and operations management.",
             Activities: [
-                "Tarea 1", "Tarea 2", "Tarea 3"
+                "Evaluation and control of operations of human resources and sales personnel.",
+                "Software development in Microsoft environment (Visual c #, Windows Server, Sql Server and Reporting Services).",
+                "Preparation of management reports that facilitate the evaluation of the performance of each branch."
             ]
         },
         {
-            Title: "Desarrollo Web",
+            Title: "FullStack Developer",
             Place: "Genesys Ltda.",
-            Period: "Octubre 2017 - Presente",
-            Resume: "33333",
+            Period: "October 2017 - Present",
+            Resume: "Development of web and mobile applications, database management, integration with developed APIs and Cloud.",
             Activities: [
-                "Tarea 1", "Tarea 2", "Tarea 3"
+                "Development of Web .Net systems (Webforms, MVC, WEB API), responsive oriented to desktop and mobile devices.",
+                "PL \ SQL programming, Transact SQL.",
+                "Implementation of integrations to other systems (SAP, SharePoint and Google Cloud).",
+                "Azure App Services and SQL Server.",
+                "Elaboration of web viewers in real time and web reports."
             ]
         }
     ],
     Education: [
         {
-            Title: "Ingeniero de sistemas",
-            Place: "Genesys Ltda.",
-            Period: "Octubre 2017 - Presente"
+            Title: "Systems Engineer",
+            Place: "Universidad de Margarita.",
+            Period: "2009 - 2014"
         },
         {
-            Title: "Ingles para relaciones publicas",
-            Place: "Genesys Ltda.",
-            Period: "Octubre 2017 - Presente"
+            Title: "English for public relations",
+            Place: "ELS language center, California.",
+            Period: "2015"
         }
     ],
     Skills: {
@@ -224,13 +270,13 @@ let ENG = {
         ],
         WorkflowTitle: "Development environment",
         Workflows: [
-            "Desarrollo de paginas Web responsivas",
-            "Desarrollo de aplicaciones web corportativas",
-            "Desarrollo de APIs en Windows Server y Azure",
-            "Integracion de sitios Web y API con bases de datos",
-            "Modelado, administracion y mantencion de base de datos",
-            "Colaboracion en librerias moviles Andriod y Xamarin (escaner de codigo de barras, impresion Bluetooth Zebra y Epson, consumir servicios REST)",
-            "APIs de integracion (SAP, Sharepoint, Oracle, SQL Server y Mobile)"
+            "Responsive website development",
+            "Development of corporate web applications",
+            "API development in Windows Server and Azure",
+            "Website and API integration with databases",
+            "Database modeling, administration and maintenance",
+            "Collaboration in Android and Xamarin mobile libraries (barcode scanner, Bluetooth Zebra and Epson printing, consume REST services)",
+            "Integration APIs (SAP, Sharepoint, Oracle, SQL Server and Mobile)"
         ]
     },
     Interests: {
@@ -240,45 +286,61 @@ let ENG = {
         {
             id: 0,
             Title: "Portal Proveedores",
-            Resume: "Sitio web responsivo",
-            BtnTxt: "Open",
+            Resume: "",
+            BtnTxt: "Show",
             BtnClose: "Hide",
-            Thumb: "0.jpg",
+            Folder: "Portal_Proveedores",
+            Thumb: "Screenshot_1.png",
             Imgs: [
-                "0.jpg", "1.jpg", "2.jpg", "3.jpg"
+                "Screenshot_1.png", "Screenshot_2.png", "Screenshot_3.png", "Screenshot_4.png", "Screenshot_5.png", "Screenshot_6.png", "Screenshot_7.png", "Screenshot_8.png", "Screenshot_9.png"
             ]
         },
         {
             id: 1,
-            Title: "Portal Proveedores",
-            Resume: "Sitio web responsivo",
-            BtnTxt: "Open",
+            Title: "Valdor",
+            Resume: "",
+            BtnTxt: "Show",
             BtnClose: "Hide",
-            Thumb: "1.jpg",
+            Folder: "Valdor",
+            Thumb: "Screenshot_1.png",
             Imgs: [
-                "0.jpg", "1.jpg", "2.jpg", "3.jpg"
+                "Screenshot_1.png", "Screenshot_2.png", "Screenshot_3.png"
             ]
         },
         {
             id: 2,
-            Title: "Portal Proveedores",
-            Resume: "Sitio web responsivo",
-            BtnTxt: "Open",
+            Title: "Trozos Aserrables",
+            Resume: "",
+            BtnTxt: "Show",
             BtnClose: "Hide",
-            Thumb: "2.jpg",
+            Folder: "Trozos_Aserrables",
+            Thumb: "Screenshot_1.png",
             Imgs: [
-                "0.jpg", "1.jpg", "2.jpg", "3.jpg"
+                "Screenshot_1.png", "Screenshot_2.png", "Screenshot_3.png", "Screenshot_4.png"
             ]
         },
         {
             id: 3,
-            Title: "Portal Proveedores",
-            Resume: "Sitio web responsivo",
-            BtnTxt: "Open",
+            Title: "Dashboard",
+            Resume: "",
+            BtnTxt: "Show",
             BtnClose: "Hide",
-            Thumb: "3.jpg",
+            Folder: "Demo_Dashboard",
+            Thumb: "Screenshot_1.png",
             Imgs: [
-                "0.jpg", "1.jpg", "2.jpg", "3.jpg"
+                "Screenshot_1.png", "Screenshot_2.png", "Screenshot_3.png"
+            ]
+        },
+        {
+            id: 4,
+            Title: "Descarga Productos",
+            Resume: "",
+            BtnTxt: "Show",
+            BtnClose: "Hide",
+            Folder: "DescargaProd",
+            Thumb: "Screenshot_3.png",
+            Imgs: [
+                "Screenshot_1.png", "Screenshot_2.png", "Screenshot_10.png"
             ]
         }
     ]

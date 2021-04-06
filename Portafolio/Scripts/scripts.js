@@ -65,7 +65,7 @@ function SetLang() {
 
     console.log(lang);
 
-
+    $("Title").html(lang.WebTitle);
 
 
     $("#IdMenuAbout").html(lang.Menu.About);
@@ -191,7 +191,7 @@ function SetLang() {
             `
                 <div class="col-4 GalleryItem mt-2">
                     <div class="card" style="width:300px">
-                        <img class="card-img-top" src="/Galeria/${item.Thumb}" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="/Galeria/${item.Folder}/${item.Thumb}" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">${item.Title}</h4>
                             <p class="card-text">${item.Resume}</p>
@@ -236,7 +236,7 @@ function ToggleModal(id) {
         $("#CarouselImgs").append(
             `
              <div class="carousel-item ${(i == 0) ? "active" : ""} CarouselImgsItem">
-                <img src="/Galeria/${i}/${item}" alt="${item}">
+                <img src="/Galeria/${GallerySelected.Folder}/${item}" alt="${item}" class="img-fluid">
              </div>            
             `
         );
